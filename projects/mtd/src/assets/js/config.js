@@ -1,6 +1,6 @@
 var config = {
   L1: {
-    name: '<YourLanguageName>',
+    name: 'Tobelo',
     lettersInLanguage: [
       'a',
       'b',
@@ -27,8 +27,13 @@ var config = {
       'w',
       'x',
       'y',
-      'z'
-    ]
+      'z',
+      '\u00e6',
+      '\u00f8',
+      '\u00e5'
+    ],
+    transducers: {}
   },
-  L2: { name: 'English' }
+  L2: { name: 'English' },
+  build: '202304110924'
 };
